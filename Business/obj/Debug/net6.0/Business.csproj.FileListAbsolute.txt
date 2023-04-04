@@ -1,0 +1,12 @@
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+B:\GitHub\Oiga\Business\bin\Debug\net6.0\Business.deps.json
+B:\GitHub\Oiga\Business\bin\Debug\net6.0\Business.dll
+B:\GitHub\Oiga\Business\bin\Debug\net6.0\Business.pdb
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.dll
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\refint\Business.dll
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\Business.pdb
+B:\GitHub\Oiga\Business\obj\Debug\net6.0\ref\Business.dll
