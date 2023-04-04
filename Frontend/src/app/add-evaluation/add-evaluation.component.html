@@ -1,0 +1,27 @@
+<mat-card>
+    <mat-card-content>
+        <mat-form-field appearance="fill">
+            <mat-label>Student</mat-label>
+            <mat-select [(ngModel)]="selectedStudent" (selectionChange)="onSelectStudent()">
+                <mat-option *ngFor="let student of students" [value]="student">
+                    {{ student.name + ' ' + student.lastName }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Course</mat-label>
+            <mat-select [(ngModel)]="selectedCourse" (selectionChange)="onSelectCourse()">
+                <mat-option *ngFor="let course of courses" [value]="course">
+                    {{ course.name }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </mat-card-content>
+    <ng-container *ngIf="selectedCourse != null">
+        <mat-label>Evaluation</mat-label>
+        <mat-star-rating [rating]="evaluation.stars" (ratingUpdated)="evaluation.stars=$event"></mat-star-rating>
+        <textarea matInput placeholder="Leave a comment" [(ngModel)]="evaluation.description"></textarea>
+
+        <button mat-raised-button color="primary" (click)="saveEvaluation()">Save Evaluation</button>
+    </ng-container>
+</mat-card>
